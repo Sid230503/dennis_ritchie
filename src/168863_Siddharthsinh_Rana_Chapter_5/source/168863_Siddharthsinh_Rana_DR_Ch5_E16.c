@@ -13,6 +13,7 @@
 #include <stdlib.h>
 #include "chapter5func.h"
 #include "flagfunc.h"
+#include "commonfunction.h"
 
 int32_t exercise5_16(int32_t argc, char *argv[]){
     int32_t numlines;

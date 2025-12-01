@@ -13,6 +13,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "flagfunc.h"
+#include "commonfunction.h"
 
 static char *lineptr[MAXLINES];
 

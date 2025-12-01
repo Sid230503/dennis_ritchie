@@ -14,9 +14,7 @@ prints the last n lines. The program should behave rationally no matter how unre
 #include <string.h>
 #include "chapter5func.h"
 #include "commonfunction.h"
-#define MAXLINES 5000
-#define MAXLEN   1000
-#define ALLOCSIZE 100000     
+    
 
 static char allocbuf[ALLOCSIZE]; 
 static char *allocp = allocbuf;   

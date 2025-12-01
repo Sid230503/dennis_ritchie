@@ -10,6 +10,10 @@
 
 #include <stdint.h>
 
+#define MAXLINES 5000
+#define MAXLEN   1000
+#define ALLOCSIZE 100000 
+
 /* Function Declarations */
 char *reverse(char str[]);
 void copy(char to[], char from[]);
